@@ -1,0 +1,156 @@
+.contact-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(122, 119, 119, 0.235);
+    padding: 15px 10px;
+}
+
+.contact-header > h2 {
+    font-weight: 500;
+}
+
+.div-icon-back {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(46, 117, 198);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-icon-back > :nth-child(1) {
+    color: white;
+}
+
+.contact-list {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+.contact-list-btns {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-list-btns > a > button, .contact-list-btns > button {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-list-btns > a > button:nth-child(1) {
+    background-color: #5182d2;
+    color: white;
+    transition: 0.3s;
+}
+
+.contact-list-btns > a > button:nth-child(1):hover {
+    background-color: #3b78dc;
+}
+
+.contact-list-btns > button:nth-child(2) {
+    border: 1px solid #2E75C6;
+    background: transparent;
+    color: #2E75C6;
+    transition: 0.2s;
+}
+
+.contact-list-btns > button:nth-child(2):hover {
+    background-color: #f0f0f0;
+}
+
+.contact-input {
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 1400px;
+    border: 1px solid rgb(219, 201, 201);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact-input > label {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(113, 106, 106);
+}
+
+.contact-input > input {
+    border: none;
+    outline: none;
+}
+
+.contact-input > input::placeholder {
+    text-transform: uppercase;
+    color: rgb(176, 166, 166);;
+}
+
+.contact-table {
+    width: 100%;
+    margin: 40px auto;
+    max-width: 1400px;
+    border-collapse: collapse;
+}
+
+.contact-table th, td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.contact-table th {
+    color: rgb(87, 84, 84);
+}
+
+.contact-table td {
+    text-transform: uppercase;
+}
+
+.contact-table > tbody {
+    background-color: rgb(224, 224, 224);
+    height: 5em;
+}
+
+.contact-table > thead > tr > th:nth-child(1) {
+    width: 40px;
+}
+
+.contact-table > thead > tr > th:nth-child(2) {
+    width: 100px;
+}
+
+.contact-table > thead > tr > th:nth-child(6) {
+    width: 150px;
+}
+
+.contact-table > thead > tr > th:nth-child(8) {
+    width: 100px;
+}
+
+.sina {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.circle-name {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2E75C6;
+}
+
+.contact-table > tbody > tr > td:nth-child(3) {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 80px;
+}

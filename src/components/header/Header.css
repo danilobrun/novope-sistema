@@ -1,0 +1,92 @@
+header {
+  width: 85%;
+  height: 6em;
+  background-color: rgb(255, 105, 0);
+  position: fixed;
+  z-index: 10;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.div-menu {
+  background-color: rgba(255, 255, 255, 0.251);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.icon-header {
+  color: white;
+}
+
+.left-side {
+  display: flex;
+  gap: 15px;
+}
+
+.input-search {
+  position: relative;
+  width: 50em;
+}
+
+.left-side > .input-search input {
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.251);
+  outline: none;
+  padding: 0 20px;
+  border-radius: 30px;
+  height: 45px;
+  width: 100%;
+  color: white;
+}
+
+.left-side > .input-search input::placeholder {
+  color: rgb(220, 215, 215);
+}
+
+.icon-search {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0 15px 0 0;
+}
+
+.user,
+.support {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user > span {
+  text-transform: uppercase;
+  color: white;
+}
+
+.support > span {
+  color: white;
+  text-transform: capitalize;
+}
+.headset {
+  color: white;
+}
+
+.bell {
+  color: white;
+}

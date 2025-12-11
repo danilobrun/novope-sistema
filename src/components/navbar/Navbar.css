@@ -1,0 +1,94 @@
+nav {
+    width: 300px;
+    background-color: white;
+    height: 100dvh;
+    position: fixed;
+}
+
+.nav-div-img {
+    padding: 15px 15px 5px 15px;
+    border-bottom: 1px solid rgba(122, 119, 119, 0.235);
+}
+
+.nav-div-user {
+    padding: 15px 15px 10px 15px;
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid rgba(122, 119, 119, 0.235);
+}
+
+.nav-div-icon-user {
+    background-color: rgb(110, 150, 213);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-user {
+    color: white;
+    width: 40px;
+    height: 30px;
+}
+
+.nav-div-information-user {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.nav-div-information-user > span:nth-child(1) {
+    color: rgb(39, 39, 39);
+    text-transform: uppercase;
+}
+
+.nav-div-information-user > span:nth-child(2) {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navigation h3 {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.navigation ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 25px;
+    transition: 0.5s;
+}
+
+.navigation ul li .icon {
+    color: rgb(88, 87, 87);
+}
+
+.navigation ul li span {
+    font-weight: 400;
+    color: rgb(88, 87, 87);
+}
+
+.navigation ul li:hover {
+    background-color: rgba(128, 128, 128, 0.345);
+}
+
+.navigation ul li:hover > .icon {
+    color: rgb(80, 80, 213);
+}
+
+.navigation ul li:hover > .navigation-text {
+    font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+    nav {
+        width: 240px;
+    }
+}
